@@ -1,8 +1,8 @@
-package main
+package fizzbuzz
 
 import "fmt"
 
-func fizzBuzz(n int) []string {
+func FizzBuzz(n int) []string {
 	fb := []string{}
 	tmp := ""
 	for i := 1; i <= n; i++ {
@@ -19,8 +19,4 @@ func fizzBuzz(n int) []string {
 		tmp = ""
 	}
 	return fb
-}
-
-func main() {
-	fmt.Println(fizzBuzz(15))
 }
